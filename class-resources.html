@@ -3,25 +3,65 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Class Resources - Study Helper</title>
+  <title>Study Helper - Class Resources</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body class="bg-gray-50 text-gray-800">
   <header class="bg-blue-600 text-white p-6 shadow-md">
-    <div class="max-w-6xl mx-auto">
-      <h1 class="text-2xl font-bold">Class Resources</h1>
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold"><a href="index.html" class="hover:underline">Study Helper</a></h1>
+      <nav class="space-x-4">
+        <a href="classroom-sync.html" class="hover:underline">Classroom Sync</a>
+        <a href="ai-notes.html" class="hover:underline">AI Notes</a>
+        <a href="tutor-connect.html" class="hover:underline">Tutor Connect</a>
+        <a href="class-resources.html" class="hover:underline">Resources</a>
+      </nav>
     </div>
   </header>
-  <main class="max-w-6xl mx-auto p-6">
-    <h2 class="text-3xl font-bold mb-4">Find Study Materials by Class</h2>
-    <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-      <li class="bg-white p-4 shadow rounded">AP Calculus BC</li>
-      <li class="bg-white p-4 shadow rounded">AP U.S. History</li>
-      <li class="bg-white p-4 shadow rounded">AP Physics 1</li>
-      <li class="bg-white p-4 shadow rounded">Computer Science</li>
-      <li class="bg-white p-4 shadow rounded">English Literature</li>
-      <li class="bg-white p-4 shadow rounded">Biology</li>
-    </ul>
+
+  <main class="py-16">
+    <div class="max-w-4xl mx-auto px-6">
+      <h2 class="text-3xl font-bold mb-6 text-center">Class Resources</h2>
+      <p class="text-lg mb-4">Discover a comprehensive library of study guides, videos, practice problems, and supplementary notes organized by subject.</p>
+      <p class="mb-4">Our resources are curated to help you excel in every subject:</p>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h3 class="text-xl font-semibold mb-2">Mathematics</h3>
+          <ul class="list-disc list-inside text-gray-700">
+            <li>Algebra study guides</li>
+            <li>Calculus video tutorials</li>
+            <li>Geometry practice sets</li>
+          </ul>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h3 class="text-xl font-semibold mb-2">Science</h3>
+          <ul class="list-disc list-inside text-gray-700">
+            <li>Physics lab notes</li>
+            <li>Chemistry concept explanations</li>
+            <li>Biology diagrams and quizzes</li>
+          </ul>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h3 class="text-xl font-semibold mb-2">Humanities</h3>
+          <ul class="list-disc list-inside text-gray-700">
+            <li>History timelines</li>
+            <li>Literature analyses</li>
+            <li>Philosophy summaries</li>
+          </ul>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h3 class="text-xl font-semibold mb-2">Languages</h3>
+          <ul class="list-disc list-inside text-gray-700">
+            <li>Grammar guides</li>
+            <li>Vocabulary lists</li>
+            <li>Conversation practice prompts</li>
+          </ul>
+        </div>
+      </div>
+      <div class="text-center mt-8">
+        <a href="index.html#pricing" class="bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700">Access All Resources</a>
+      </div>
+    </div>
   </main>
 </body>
 </html>
