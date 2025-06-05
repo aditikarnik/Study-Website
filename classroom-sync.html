@@ -1,25 +1,43 @@
-DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Classroom Sync - Study Helper</title>
+  <title>Study Helper - Classroom Sync</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body class="bg-gray-50 text-gray-800">
   <header class="bg-blue-600 text-white p-6 shadow-md">
-    <div class="max-w-6xl mx-auto">
-      <h1 class="text-2xl font-bold">Classroom Sync</h1>
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold"><a href="index.html" class="hover:underline">Study Helper</a></h1>
+      <nav class="space-x-4">
+        <a href="classroom-sync.html" class="hover:underline">Classroom Sync</a>
+        <a href="ai-notes.html" class="hover:underline">AI Notes</a>
+        <a href="tutor-connect.html" class="hover:underline">Tutor Connect</a>
+        <a href="class-resources.html" class="hover:underline">Resources</a>
+      </nav>
     </div>
   </header>
-  <main class="max-w-4xl mx-auto p-6">
-    <h2 class="text-3xl font-bold mb-4">Connect Your Platforms</h2>
-    <p class="mb-4">Easily link your Google Classroom and Schoology accounts to sync assignments, class updates, and calendar events in one unified dashboard.</p>
-    <ul class="list-disc list-inside">
-      <li>One-click OAuth login</li>
-      <li>Real-time assignment updates</li>
-      <li>Custom notifications and reminders</li>
-    </ul>
+
+  <main class="py-16">
+    <div class="max-w-4xl mx-auto px-6">
+      <h2 class="text-3xl font-bold mb-6 text-center">Classroom Sync</h2>
+      <p class="text-lg mb-4">Seamlessly integrate your academic platforms to keep track of assignments, deadlines, and important announcements all in one place.</p>
+      <p class="mb-4">Our Classroom Sync feature connects directly with:</p>
+      <ul class="list-disc list-inside mb-6">
+        <li>**Google Classroom:** Import assignments, course materials, and announcements.</li>
+        <li>**Schoology:** Sync your calendar, grades, and shared resources.</li>
+      </ul>
+      <h3 class="text-2xl font-semibold mb-4">Key Benefits:</h3>
+      <ul class="list-disc list-inside mb-6">
+        <li>Never miss a deadline with automated reminders.</li>
+        <li>View all your classes and assignments on a unified dashboard.</li>
+        <li>Spend less time organizing and more time studying.</li>
+      </ul>
+      <div class="text-center mt-8">
+        <a href="index.html#pricing" class="bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700">Get Started with Classroom Sync</a>
+      </div>
+    </div>
   </main>
 </body>
 </html>
