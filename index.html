@@ -3,27 +3,96 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Study Helper - [Page Name]</title> <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <title>Study Helper</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body class="bg-gray-50 text-gray-800">
   <header class="bg-blue-600 text-white p-6 shadow-md">
     <div class="max-w-6xl mx-auto flex justify-between items-center">
-      <h1 class="text-2xl font-bold"><a href="index.html" class="hover:underline">Study Helper</a></h1>
+      <h1 class="text-2xl font-bold">Study Helper</h1>
       <nav class="space-x-4">
         <a href="classroom-sync.html" class="hover:underline">Classroom Sync</a>
         <a href="ai-notes.html" class="hover:underline">AI Notes</a>
         <a href="tutor-connect.html" class="hover:underline">Tutor Connect</a>
         <a href="class-resources.html" class="hover:underline">Resources</a>
-        </nav>
+      </nav>
     </div>
   </header>
 
-  <main class="py-16">
-    <div class="max-w-4xl mx-auto px-6">
-      <h2 class="text-3xl font-bold mb-6 text-center">Your [Page Name] Details</h2>
-      <p class="mb-4">This is where you'll put all the detailed information, images, features, and anything else related to [Page Name].</p>
-      </div>
-  </main>
+  <section class="text-center py-20 bg-white">
+    <h2 class="text-4xl font-bold mb-4">Your All-in-One Study Companion</h2>
+    <p class="text-lg mb-6">Connect your classes. Get smart notes. Meet tutors. Study better.</p>
+    <a href="#pricing" class="bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700">Get Started</a>
+  </section>
 
-  </body>
+  <section id="features" class="py-16 bg-gray-100">
+    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
+      <a href="classroom-sync.html" class="bg-white p-6 rounded-lg shadow block hover:bg-gray-50">
+        <h3 class="text-xl font-bold mb-2">Classroom Sync</h3>
+        <p>Integrate with Google Classroom and Schoology to sync assignments and notes.</p>
+      </a>
+      <a href="ai-notes.html" class="bg-white p-6 rounded-lg shadow block hover:bg-gray-50">
+        <h3 class="text-xl font-bold mb-2">AI-Powered Notes</h3>
+        <p>Upload files or paste text, and get instant summaries, flashcards, and quizzes.</p>
+      </a>
+      <a href="tutor-connect.html" class="bg-white p-6 rounded-lg shadow block hover:bg-gray-50">
+        <h3 class="text-xl font-bold mb-2">Tutor Connect</h3>
+        <p>Book live sessions or chat with verified tutors directly from the platform.</p>
+      </a>
+    </div>
+  </section>
+
+  <section id="resources" class="py-16 bg-gray-100">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl font-bold">Class Resources</h2>
+      <p class="text-gray-600">Find study guides, videos, and notes by subject.</p>
+    </div>
+    <div class="text-center">
+      <a href="class-resources.html" class="bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700">Browse Classes</a>
+    </div>
+  </section>
+
+  <section id="pricing" class="py-16 bg-white">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl font-bold">Pricing Plans</h2>
+      <p class="text-gray-600">Choose the plan that fits your needs and unlock your potential.</p>
+    </div>
+    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="bg-gray-100 p-6 rounded-lg shadow text-center">
+        <h3 class="text-xl font-bold mb-2">Free</h3>
+        <p class="mb-4">Basic tools to help you stay organized</p>
+        <p class="text-2xl font-bold mb-4">$0/month</p>
+        <ul class="mb-6 space-y-2">
+          <li>✅ Planner</li>
+          <li>✅ Calendar Sync</li>
+          <li>✅ Flashcards</li>
+        </ul>
+        <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Sign Up</button>
+      </div>
+      <div class="bg-gray-100 p-6 rounded-lg shadow text-center">
+        <h3 class="text-xl font-bold mb-2">Pro</h3>
+        <p class="mb-4">Enhanced features for deeper learning</p>
+        <p class="text-2xl font-bold mb-4">$5.99/month</p>
+        <ul class="mb-6 space-y-2">
+          <li>✅ All Free features</li>
+          <li>✅ AI-generated Notes</li>
+          <li>✅ Quizzes & Summaries</li>
+        </ul>
+        <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Get Pro</button>
+      </div>
+      <div class="bg-gray-100 p-6 rounded-lg shadow text-center">
+        <h3 class="text-xl font-bold mb-2">Elite</h3>
+        <p class="mb-4">Full access + tutor support</p>
+        <p class="text-2xl font-bold mb-4">$14.99/month</p>
+        <ul class="mb-6 space-y-2">
+          <li>✅ All Pro features</li>
+          <li>✅ Live Tutor Sessions</li>
+          <li>✅ Classroom Analytics</li>
+        </ul>
+        <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Join Elite</button>
+      </div>
+    </div>
+  </section>
+
+</body>
 </html>
